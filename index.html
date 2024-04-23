@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>待辦事項清單</title>
+    <link rel="stylesheet" href="style.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body>
+<div class="container">
+    <h1>To Do List 待辦清單<i class='bx bx-notepad'></i></h1>
+    <input type="text" id="input-box" placeholder="新增待辦事項..."/>
+    <button id="add" onclick="addTask()" >新增</button>
+    <ul id="list-container">
+            <!-- <li class="checked">Task1 <span class="close"></span></li>
+            <li >Task2</li>
+            <li >Task3 </li> -->
+    </ul>
+    <button id="del-all">清除所有事項</button>
+</div>
+    <script src="script.js"></script>
+</body>
+</html>
